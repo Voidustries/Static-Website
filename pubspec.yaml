@@ -1,0 +1,65 @@
+name: voidustries_ca
+description: https://www.voidustries.ca
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  fluro: ^2.0.3
+  smooth_scroll_web: ^0.0.4
+  simple_icons: ^5.2.0
+  url_launcher: ^6.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: Primetime
+      fonts:
+        - asset: assets/fonts/primetime.ttf
+    - family: Hack
+      fonts:
+        - asset: assets/fonts/Hack-Bold.ttf
+        - asset: assets/fonts/Hack-Italic.ttf
+        - asset: assets/fonts/Hack-BoldItalic.ttf
+        - asset: assets/fonts/Hack-Regular.ttf
+
+  assets:
+    # Images/Generic
+    - assets/images/Voidustries_Logo_V1.png
+    - assets/images/Voidustries_Banner_V1.png
+    - assets/images/Lp_image.png
+    - assets/images/programing.png
+    # Images/Technologies
+    - assets/images/technologies/dart.svg
+
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+
